@@ -29,4 +29,3 @@ svd.sh # Generates code from crate and formats to rustfmt
 version = "0.3.1"
 features = ["rt"]
 ```
-
