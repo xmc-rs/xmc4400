@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.14.0](https://github.com/xmc-rs/xmc4400/compare/v0.13.0...v0.14.0) (2024-12-01)
+
+
+### Features
+
+* updating from newer svd2rust ([#100](https://github.com/xmc-rs/xmc4400/issues/100)) ([220a61d](https://github.com/xmc-rs/xmc4400/commit/220a61deaef11be1cf1a6e68da457c311cb53321))
+* updating from newer svd2rust ([#93](https://github.com/xmc-rs/xmc4400/issues/93)) ([e799be1](https://github.com/xmc-rs/xmc4400/commit/e799be1868d3f10204066e0635148130aef6e484))
+* updating from newer svd2rust ([#99](https://github.com/xmc-rs/xmc4400/issues/99)) ([f49585c](https://github.com/xmc-rs/xmc4400/commit/f49585c511402696d2ac3dad4bd354c9e47510c7))
+
 ## [0.13.0](https://github.com/xmc-rs/xmc4400/compare/v0.12.0...v0.13.0) (2024-06-03)
 
 
