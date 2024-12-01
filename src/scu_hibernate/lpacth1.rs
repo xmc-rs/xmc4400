@@ -43,25 +43,21 @@ impl R {
 impl W {
     #[doc = "Bits 0:5 - Analog HIB_IO_0 Lower Threshold Value"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio0lo(&mut self) -> AHIBIO0LO_W<LPACTH1_SPEC> {
         AHIBIO0LO_W::new(self, 0)
     }
     #[doc = "Bits 8:13 - Analog HIB_IO_0 Upper Threshold Value"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio0hi(&mut self) -> AHIBIO0HI_W<LPACTH1_SPEC> {
         AHIBIO0HI_W::new(self, 8)
     }
     #[doc = "Bits 16:21 - Analog HIB_IO_1 Lower Threshold Value"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio1lo(&mut self) -> AHIBIO1LO_W<LPACTH1_SPEC> {
         AHIBIO1LO_W::new(self, 16)
     }
     #[doc = "Bits 24:29 - Analog HIB_IO_1 Upper Threshold Value"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio1hi(&mut self) -> AHIBIO1HI_W<LPACTH1_SPEC> {
         AHIBIO1HI_W::new(self, 24)
     }
