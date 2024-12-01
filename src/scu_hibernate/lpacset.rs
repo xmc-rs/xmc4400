@@ -189,37 +189,31 @@ where
 impl W {
     #[doc = "Bit 0 - Trigger VBAT Single Compare Operation Set"]
     #[inline(always)]
-    #[must_use]
     pub fn vbatscmp(&mut self) -> VBATSCMP_W<LPACSET_SPEC> {
         VBATSCMP_W::new(self, 0)
     }
     #[doc = "Bit 1 - Trigger HIB_IO_0 Input Single Compare Operation Set"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio0scmp(&mut self) -> AHIBIO0SCMP_W<LPACSET_SPEC> {
         AHIBIO0SCMP_W::new(self, 1)
     }
     #[doc = "Bit 2 - Trigger HIB_IO_1 Input Single Compare Operation Set"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio1scmp(&mut self) -> AHIBIO1SCMP_W<LPACSET_SPEC> {
         AHIBIO1SCMP_W::new(self, 2)
     }
     #[doc = "Bit 16 - VBAT Compare Operation Initial Value Set"]
     #[inline(always)]
-    #[must_use]
     pub fn vbatval(&mut self) -> VBATVAL_W<LPACSET_SPEC> {
         VBATVAL_W::new(self, 16)
     }
     #[doc = "Bit 17 - HIB_IO_0 Input Compare Initial Value Set"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio0val(&mut self) -> AHIBIO0VAL_W<LPACSET_SPEC> {
         AHIBIO0VAL_W::new(self, 17)
     }
     #[doc = "Bit 18 - HIB_IO_1 Input Compare Initial Value Set"]
     #[inline(always)]
-    #[must_use]
     pub fn ahibio1val(&mut self) -> AHIBIO1VAL_W<LPACSET_SPEC> {
         AHIBIO1VAL_W::new(self, 18)
     }

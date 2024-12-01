@@ -127,25 +127,21 @@ where
 impl W {
     #[doc = "Bit 0 - USB Clock Disable"]
     #[inline(always)]
-    #[must_use]
     pub fn usbcdi(&mut self) -> USBCDI_W<CLKCLR_SPEC> {
         USBCDI_W::new(self, 0)
     }
     #[doc = "Bit 2 - Ethernet Clock Disable"]
     #[inline(always)]
-    #[must_use]
     pub fn eth0cdi(&mut self) -> ETH0CDI_W<CLKCLR_SPEC> {
         ETH0CDI_W::new(self, 2)
     }
     #[doc = "Bit 4 - CCU Clock Disable"]
     #[inline(always)]
-    #[must_use]
     pub fn ccucdi(&mut self) -> CCUCDI_W<CLKCLR_SPEC> {
         CCUCDI_W::new(self, 4)
     }
     #[doc = "Bit 5 - WDT Clock Disable"]
     #[inline(always)]
-    #[must_use]
     pub fn wdtcdi(&mut self) -> WDTCDI_W<CLKCLR_SPEC> {
         WDTCDI_W::new(self, 5)
     }
